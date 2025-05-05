@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>parallax</title>	
+<style>
+body{
+	margin: 0;
+	
+}
+.img1{
+	
+	background-image: url(img.JPEG);
+	height: 900px;
+	overflow: hidden;
+
+}
+
+.img2{
+	background-image: url(i2.JPEG);
+	min-height: 400px;
+	overflow: hidden;
+
+}
+.img3{
+	background-image: url(i3.JPEG);
+	min-height: 400px;
+	overflow: hidden;
+
+}
+.img1, .img2 , .img3{
+	opacity: 0.65;
+	position:relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+.caption {
+    position: absolute;
+    top: 50%;
+   	left: 0;
+   	width: 100%;
+    text-align: center;
+ 
+  }
+ .border{
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.cantain{
+	text-align: center;
+	padding: 50px 80px;
+	line-height:30px;
+	word-spacing:2px;
+}
+h3{
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+p{
+	color: gray;
+	font-size: 17px;
+}
+.border1{
+	font-size: 30px;
+	letter-spacing: 10px;
+	color: white;
+}
+.Scroll{
+	background-color: black;
+	padding: 40px 50px 40px 80px;
+}
+</style>
+</head>
+<body>
+	<div class="img1">
+		<div class="caption">
+			<span class="border">SCROLL DOWN</span>
+
+		</div>
+	</div>
+	<div class="cantain">
+		<h3>PARALLAX DEMO</h3>
+		<p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
+	</div>
+	<div class="img2">
+		<div class="caption">
+			<span class="border1">LESS HEIGH</span>
+
+		</div>
+	</div>
+	<div class="Scroll">
+		<p style="color: white;">Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+	</div>
+	<div class="img3">
+		<div class="caption">
+			<span class="border1">SCROLL UP</span>
+
+		</div>
+	</div>
+	<div class="Scroll">
+		<p style="color: white;">Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+	</div>
+	<div class="img1">
+		<div class="caption">
+			<span class="border">cool</span>
+
+		</div>
+	</div>
+</body>
+</html>

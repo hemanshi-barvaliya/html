@@ -1,0 +1,504 @@
+body{
+  margin: 0 100px;
+  font-family: Britannic;
+
+
+}
+.logo{
+
+	margin: 50px 0;
+}
+.boder-bottom{
+	border-bottom: 1px solid lightgray;
+	
+}
+a{
+	color: black;
+}
+a.main_link:link{
+	text-decoration: none;
+	padding-right: 30px;	
+}
+a.main_link1:link{
+	text-decoration: none;
+	padding-right: 30px;
+	color: red;
+}
+.padding{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.main{
+	font-family: Raleway, sans-serif;
+	letter-spacing: 3px;
+	font-size: 11px;
+    font-weight: 300;
+    line-height: 1em;
+}
+a.main_link:hover {
+	color: red;
+}
+.grid{
+	display: grid;
+	 grid-template-areas:
+    'a b c'
+    'a d e';
+  gap: 10px;
+ grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 40% 40%;
+  justify-content: center;
+
+
+  
+
+}
+.item1 { grid-area: a; }
+.item2 { grid-area: b; }
+.item3 { grid-area: c; }
+.item4 { grid-area: d; }
+.item5 { grid-area: e; }
+.i1{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.banner{
+	position: relative;
+	max-width: 100%;
+	margin: auto;
+}
+.banner_data{
+	position: absolute;
+	max-width: 100%;
+	top: 0;
+	left: 0;
+	
+}
+.banner_img{
+	height: 350px;
+	width: 1100px;
+}
+.banner_img1{
+	height: 350px;
+	max-width: 1100px;
+}
+
+.banner_data_title{
+	position: absolute;
+	max-width: 100%;
+	top: 100px;
+	left: 450px;
+	font-family: Monotype Corsiva;
+	color: #E35640;
+	font-weight: 400;
+	font-size: 25px;
+
+}
+.banner_data_title{
+	position: absolute;
+	max-width: 100%;
+	top: 80px;
+	left: 450px;
+	font-family: Monotype Corsiva;
+	color: #E35640;
+	font-weight: 400;
+	font-size: 25px;
+	vertical-align: baseline;
+
+}
+.banner_data_contain{
+	position: absolute;
+	max-width: 800px;
+	top: 170px;
+	left: 130px;
+	text-align: center;
+	vertical-align: baseline;
+	font-family: "EB Garamond", serif;
+
+}
+input[type=email] {
+  width: 700px;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+}
+.banner_data_mail{
+	position: absolute;
+	top: 270px;
+	left: 170px;
+	max-width: 800px;
+}
+.banner_data_btn{
+	position: absolute;
+	top: 285px;
+	left: 810px;
+	max-width: 800px;
+}
+.title {
+    font-family: Monotype Corsiva;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+    font-size: 40px;
+}
+.grid1{
+	display: grid;
+	grid-template-areas:
+    'a b c'
+    'd e f'
+    'g h i';
+  	gap: 20px;
+ 	grid-template-columns: 33% 33% 33%;
+  	grid-template-rows: 33% 33% 33%;
+  	justify-content: center;
+
+}
+.element .element_i1{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	display: block;
+	transition: .5s;
+}
+.layar{
+	width: 25%;
+	background-color:white;
+	position: absolute;
+	top:1610px;
+	left: 100px;
+	color: black;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+	border: 1px solid white;
+	
+}
+.effect3 .layar{
+		bottom: 0;
+		opacity: 0;
+}
+.effect3
+{
+	overflow: hidden;
+}
+.effect3:hover .element_i1{
+	transform: translatey(5px);	
+}
+.effect3:hover .layar{
+	opacity: 1;
+
+}
+.layar:hover{
+	transform: translatey(5px);	
+}
+.ood_dish1 .element{
+	position: relative;
+}
+.food_dish_title{
+	color: red;
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+    font-size: 11px;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.layar2{
+	width: 25%;
+	background-color:white;
+	position: absolute;
+	top:1610px;
+	left: 475px;
+	color: black;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+	border: 1px solid white;
+	
+}
+.effect3 .layar2{
+		bottom: 0;
+		opacity: 0;
+}
+.effect3:hover .layar2{
+	opacity: 1;
+
+}
+.layar2:hover{
+	transform: translatey(5px);	
+}
+.layar3{
+	width: 25%;
+	background-color:white;
+	position: absolute;
+	top:1610px;
+	left: 850px;
+	color: black;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+	border: 1px solid white;
+	
+}
+.effect3 .layar3{
+		bottom: 0;
+		opacity: 0;
+}
+.effect3:hover .layar3{
+	opacity: 1;
+
+}
+.layar3:hover{
+	transform: translatey(5px);	
+}
+.layar4{
+	width: 25%;
+	background-color:white;
+	position: absolute;
+	top:2035px;
+	left: 100px;
+	color: black;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+	border: 1px solid white;
+	
+}
+.effect3 .layar4{
+		bottom: 0;
+		opacity: 0;
+}
+.effect3:hover .layar4{
+	opacity: 1;
+
+}
+.layar5:hover{
+	transform: translatey(5px);	
+}
+.layar5{
+	width: 25%;
+	background-color:white;
+	position: absolute;
+	top:2035px;
+	left: 475px;
+	color: black;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+	border: 1px solid white;
+	
+}
+.effect3 .layar5{
+		bottom: 0;
+		opacity: 0;
+}
+.effect3:hover .layar5{
+	opacity: 1;
+
+}
+.layar5:hover{
+	transform: translatey(5px);	
+}
+.layar6{
+	width: 25%;
+	background-color:white;
+	position: absolute;
+	top:2035px;
+	left: 850px;
+	color: black;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+	border: 1px solid white;
+	
+}
+.effect3 .layar6{
+		bottom: 0;
+		opacity: 0;
+}
+.effect3:hover .layar6{
+	opacity: 1;
+
+}
+.layar6:hover{
+	transform: translatey(5px);	
+}
+.layar7{
+	width: 25%;
+	background-color:white;
+	position: absolute;
+	top:2470px;
+	left: 100px;
+	color: black;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+	border: 1px solid white;
+	
+}
+.effect3 .layar7{
+		bottom: 0;
+		opacity: 0;
+}
+.effect3:hover .layar7{
+	opacity: 1;
+
+}
+.layar7:hover{
+	transform: translatey(5px);	
+}
+.layar8{
+	width: 25%;
+	background-color:white;
+	position: absolute;
+	top:2470px;
+	left: 475px;
+	color: black;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+	border: 1px solid white;
+	
+}
+.effect3 .layar8{
+		bottom: 0;
+		opacity: 0;
+}
+.effect3:hover .layar8{
+	opacity: 1;
+
+}
+.layar8:hover{
+	transform: translatey(5px);	
+}
+.layar9{
+	width: 25%;
+	background-color:white;
+	position: absolute;
+	top:2470px;
+	left: 850px;
+	color: black;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+	border: 1px solid white;
+	
+}
+.effect3 .layar9{
+		bottom: 0;
+		opacity: 0;
+}
+.effect3:hover .layar9{
+	opacity: 1;
+
+}
+.layar9:hover{
+	transform: translatey(5px);	
+}
+
+.flex1{
+	display: flex;
+}
+.padding-right{
+	padding-right: 50px;
+}
+.padding-top{
+	padding-top: 100px;
+}
+
+.box .elements{
+	position: relative;
+}
+
+.elements img{
+	
+	object-fit: cover;
+	display: block;
+	transition: .5s;
+}
+.layers{
+	
+	position: absolute;
+	transition: .1s;
+	opacity: 0;
+	
+}
+
+.effect1s:hover .layers{
+	top: 0px;
+	left: 0px;
+	opacity: 1;
+}
+.insta_title{
+	font-size: 13px;
+	font-family: Monotype Corsiva;
+	text-align: center;
+	width: 380px;
+	margin: auto;
+}
+.main_img2{
+	height: 120px;
+	width: 170px;
+	padding: 5px;
+	margin: auto;
+}
+.padding-top1{
+	padding-top: 70px;
+
+}
+.max-width1{
+	max-width: 1200px;
+	margin: auto;
+}
+.page-container-data{
+  position: relative;
+  max-width: 100%;
+  height: 350px;
+  overflow: hidden;
+  	margin: auto;
+ 
+} 
+.imgs111{
+	height: 700px;
+max-width: 100%;
+}
+.page1{
+	position: absolute;
+  top: 0%;
+  left: 0%;
+
+}
+.logo{
+
+	margin: 50px 0;
+}
+.imgs123{
+	position: absolute;
+	top: 20%;
+  left: 400px;
+  height: 70px;
+
+}
+.text-main{
+	position: absolute;
+	top: 50%;
+  	left: 340px;
+  	width: 430px;
+     font-family: 'Raleway';
+    font-size: 20px;
+    color: #595959;
+    margin: auto;
+
+
+}
+.text-main1{
+	position: absolute;
+	top: 70%;
+  left: 420px;
+   font-size: 20px;
+   font-family: "Lucida Console", "Courier New", monospace;
+   color: #919191;
+   text-align: center;
+}

@@ -1,0 +1,236 @@
+body{
+  margin: 0 100px;
+  font-family: Britannic;
+
+
+}
+.logo{
+
+	margin: 50px 0;
+}
+.boder-bottom{
+	border-bottom: 1px solid lightgray;
+	
+}
+a{
+	color: black;
+}
+a.main_link:link{
+	text-decoration: none;
+	padding-right: 30px;	
+}
+.padding{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.main{
+	font-family: Raleway, sans-serif;
+	letter-spacing: 3px;
+	font-size: 13px;
+    font-weight: 300;
+    line-height: 1em;
+}
+a.main_link:hover {
+	color: red;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+.flex1{
+	display: flex;
+
+
+}
+.imges{
+	padding-right: 35px;
+}
+.main_img1{
+	height: 500px;
+	width: 800px;
+	padding-right: 45px;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.main_img{
+	height:230px;
+	width: 220px;
+	padding-right: 45px;
+	padding: 10px 0;
+	margin: 0;
+}
+.title{
+	font-family: Monotype Corsiva;	
+
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+    font-size: 40px;
+
+}
+.element img{
+	height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.page-container {
+  position: relative;
+  width: 1000px;
+  height: 350px;
+  overflow: hidden;
+ 
+} 
+
+.page{
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  font-family: Monotype Corsiva;
+   font-weight: 400;
+    font-style: normal;
+    color: red;
+    font-size: 40px;	
+
+}
+.page1{
+	position: absolute;
+  top: 40%;
+  left: 10%;
+  font-family: Monotype Corsiva;
+   font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 40px;
+
+    width: 800px;	
+}
+.email{
+	border: none;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 18px;
+  margin: 10px 0;
+ 
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.food-img1{
+	
+	 overflow: auto;
+}
+.padding-right{
+	padding-right: 30px;
+}
+.padding-top{
+	padding-top: 70px;
+}
+.box .element
+{
+
+	background: white;
+	position: relative;
+}
+.element img
+{
+	
+	object-fit: cover;
+	display: block;
+	transition: .5s;
+}
+.layer
+{
+	width: auto;
+	position: absolute;
+	left: 0;
+	transition: .5s;
+}
+.effect1 .layer
+{
+	top: 0;
+	opacity: 0;
+	height: 100%;
+}
+.effect1:hover .layer
+{
+	opacity: 1;
+	top: 0px;
+	left: 0px;
+}
+.title1{
+	font-family: Monotype Corsiva;	
+
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+ 
+
+}
+
+.main_img2{
+	height: 150px;
+	width: 140px;
+	padding-right: 5px;
+	margin: 0;
+	padding-top: 20px;
+}
+.imgs{
+	height: 700px;
+	width: 1200px;
+}
+.page1{
+	position: absolute;
+  top: 0%;
+  left: 0%;
+
+}
+.imgs1{
+	position: absolute;
+	top: 20%;
+  left: 400px;
+  height: 70px;
+
+}
+.text-main{
+	position: absolute;
+	top: 50%;
+  	left: 340px;
+  	width: 430px;
+     font-family: 'Raleway';
+    font-size: 20px;
+    color: #595959;
+    margin: auto;
+
+
+}
+.text-main1{
+	position: absolute;
+	top: 70%;
+  left: 420px;
+   font-size: 20px;
+   font-family: "Lucida Console", "Courier New", monospace;
+   color: #919191;
+   text-align: center;
+}
+.page3{
+	position: absolute;
+
+  top: 50%;
+  left: 10%;
+  margin: auto;
+
+}
+.max-width{
+	max-width: 1200px;
+	margin: auto;
+}

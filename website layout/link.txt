@@ -1,0 +1,4 @@
+https://html.themeori.net/bantec/index-two.html
+
+
+toString().slice(0,-1)

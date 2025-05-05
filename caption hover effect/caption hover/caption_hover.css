@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: calibri;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.heading
+{
+	text-align: center;
+}
+.container
+{
+	max-width: 1400px;
+	margin: auto;
+}
+.flex_box
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.box
+{
+	width: 33.33%;
+	padding: 20px;
+}
+.box .element
+{
+	height: 400px;
+	background: aquamarine;
+	position: relative;
+}
+.element img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	transition: .5s;
+}
+.layer
+{
+	width: 100%;
+	background: dimgrey;
+	position: absolute;
+	left: 0;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	transition: .5s;
+	padding: 15px;
+}
+.effect1 .layer
+{
+	top: 0;
+	opacity: 0;
+	height: 100%;
+}
+.layer .btn
+{
+	margin-top: 10px;
+	padding: 5px 10px;
+	background: deeppink;
+}
+.effect1:hover .layer
+{
+	opacity: 1;
+	top: 15px;
+	left: 15px;
+}
+.effect2 .layer
+{
+	bottom: 0;
+	height: 30%;
+}
+.effect2 img
+{
+	position: relative;
+	z-index: 1;
+}
+.effect2:hover img
+{
+	transform: translateY(-107px);
+}
+.effect3:hover img{
+	transform: translateY(-50px);
+}
+.effect3:hover .layer
+{
+	transform: translateY(-107px);
+}
+.effect3
+{
+	overflow: hidden;
+}

@@ -1,0 +1,210 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+
+}
+.h-top {
+    top: 0;
+}
+.h-top, .h-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1
+ }	
+ .h-padding{
+ 	padding: 8px 16px;
+ }
+ .h-bar {
+    width: 100%;
+    overflow: hidden;
+}
+.h-wide {
+    letter-spacing: 4px;
+}
+
+
+.h-card, .h-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.h-white{
+	color: black;
+	background-color: white;
+}
+.h-right {
+    float: right;
+    width: auto;
+}
+
+ *{
+ 	    box-sizing: inherit;
+ }
+
+ a{
+ 	color: #4d4d4d;
+ 	text-decoration: none;
+
+ }
+ .h-btn, .h-button {
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+
+}
+.h-bar .h-button {
+    white-space: normal;
+}
+.h-content, .h-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.h-tooltip, .h-display-container {
+ position: relative;
+ padding-right: 10px;
+ margin: 20px;
+}
+.h-image {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+.h-margin-top {
+    top: 16px;
+}
+.h-center {
+    text-align: center
+ }
+.h-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -150%);
+ }
+ h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+ }
+ .h-xxlarge {
+    font-size: 36px !important;
+}
+.h-black, .h-hover-black:hover {
+    color:white;
+    background-color: black;
+}
+.h-opacity {
+    opacity: 0.75;
+}
+b, strong {
+    font-weight: bolder;
+}
+.h-text-light-grey, .h-hover-text-light-grey:hover, .h-text-light-gray, .h-hover-text-light-gray:hover {
+    color: #f1f1f1 !important;
+}
+img {
+    vertical-align: middle;
+}
+.h-margin-top {
+    margin-top: 16px !important;
+}
+.h-padding-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.h-container, .h-panel {
+    padding: 0.01em 16px;
+}
+.h-padding-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.h-border-bottom {
+    border-bottom: 1px solid #ccc !important;
+}
+.h-container, .h-panel {
+    padding: 0.01em 16px;
+}
+.h-border-light-grey, .h-hover-border-light-grey:hover {
+    border-color: #f1f1f1;
+}
+.h-border-bottom {
+    border-bottom: 1px solid #ccc;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+h3 {
+    font-size: 24px;
+}
+.h-row-padding{
+    padding: 0 8px;
+}
+.h-display-topleft {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.h-margin-bottom {
+    margin-bottom: 16px;
+}
+.h-col {
+    float: left;
+}
+.h-black, .h-hover-black:hover {
+    color: #fff ;
+    background-color: #000;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.h-col.m6, .h-half {
+        width: 24.999%;
+      
+
+}
+.h-light-gray, .h-hover-light-grey:hover {
+    color: #000 ;
+    background-color: #f1f1f1;
+}
+.h-block {
+    display: block;
+    width: 90%;
+}
+.h-button{
+    border: none;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.h-border {
+    border: 1px solid #ccc;
+}
+.h-input {
+    padding: 8px;
+    display: block;
+    width: 100%;
+}
+button, input {
+    overflow: visible;
+}
+.h-section{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}

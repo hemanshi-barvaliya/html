@@ -1,0 +1,274 @@
+div{
+  box-sizing: border-box;
+}
+.box1{
+			background-color: #003366;
+			color: white;
+		 	text-align: center;
+		  	padding: 15px 15px;
+		  }
+		a.box:link {color:white;
+		  text-decoration: none;
+		}
+		a.box:visited {color:white;
+		  text-decoration: none;
+		}
+         a.box:hover {color:orange;
+          text-decoration: none;
+      	}
+		a.box:active{color: white;
+		  text-decoration: none;
+		}
+
+
+.logo1{
+    
+   width: 100%;
+    padding-right: 15px;
+    padding-left: 35px;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: flex;
+    }
+
+    .logo2{
+    
+    
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+   
+    }
+
+    .logo{
+      text-align: center; 
+    }
+
+	a.logo:link {color:black; 
+	text-decoration: none;
+	text-align: center;
+	}
+	a.logo:visited {color:black;
+	text-decoration: none;
+	text-align: center;
+	}
+  a.logo:hover {color:orange;
+    text-decoration: none;
+    text-align: center;
+	}
+	a.logo:active{color: black;
+	text-decoration: none;
+	text-align: center;
+	}
+  
+  
+	.keybord{
+		opacity: 2;
+
+	}
+
+
+	.container {
+ 		 position: relative;
+  		 width: 100%;
+ 		 max-width: 400px;
+	}
+
+	.container .keybord {
+  		width: 1250px;
+  		height: 300px;
+	}
+
+	.container .btn {
+ 		 position: absolute;
+ 		 width: 80px;
+  		height: 80px;
+  		top: 10%;
+  		left: 10%;
+  		color: white;
+  		font-size: 16px;
+  		padding: 60px 90px;
+  		border: none;
+  		cursor: pointer;
+  		text-align: center;
+	}
+    .container .btn1 {
+ 		 position: absolute;
+  		top: 10%;
+  		left: 10%;
+  		color: white;
+  		font-size: 30px;
+  		padding: 118px 85px;
+  		border: none;
+  		cursor: pointer;
+  		text-align: center;
+	}
+	.container .btn2 {
+ 		 position: absolute;
+  		top: 10%;
+  		left: 10%;
+  		color: white;
+  		font-size: 20px;
+  		padding: 170px 55px;
+  		border: none;
+  		cursor: pointer;
+  		text-align: center;
+	}
+	.container .btn3 {
+ 		 position: absolute;
+ 		 width: 100px;
+  		height: 100px;
+  		top: 5%;
+  		left: 70%;
+  		color: white;
+  		font-size: 16px;
+  		padding: 60px 90px;
+  		border: none;
+  		cursor: pointer;
+  		text-align: center;
+  	}
+  	.container .btn4 {
+ 		 position: absolute;
+  		top: 20%;
+  		left: 70%;
+  		color: white;
+  		font-size: 30px;
+  		padding: 80px 120px;
+  		border: none;
+  		cursor: pointer;
+  		text-align: center;
+	}
+	.container .btn5 {
+ 		 position: absolute;
+  		top: 20%;
+  		left: 60%;
+  		color: white;
+  		font-size: 20px;
+  		padding: 125px 110px;
+  		border: none;
+  		cursor: pointer;
+  		text-align: center;
+	}
+	.container .btn6{
+ 		 position: absolute;
+ 		 width: 90px;
+  		height: 90px;
+  		top: 10%;
+  		left: 150%;
+  		color: white;
+  		font-size: 16px;
+  		padding: 60px 90px;
+  		border: none;
+  		cursor: pointer;
+  		text-align: center;
+  	}
+  	.container .btn7 {
+ 		 position: absolute;
+  		top: 20%;
+  		left: 150%;
+  		color: white;
+  		font-size: 30px;
+  		padding: 95px 110px;
+  		border: none;
+  		cursor: pointer;
+  		text-align: center;
+	}
+	.container .btn8 {
+ 		 position: absolute;
+  		top: 20%;
+  		left: 150%;
+  		color: white;
+  		font-size: 20px;
+  		padding: 140px 90px;
+  		border: none;
+  		cursor: pointer;
+  		text-align: center;
+	}
+  	.container .btn9{
+ 		 position: absolute;
+ 		 width: 90px;
+  		height: 90px;
+  		top: 10%;
+  		left: 230%;
+  		color: white;
+  		font-size: 16px;
+  		padding: 60px 90px;
+  		border: none;
+  		cursor: pointer;
+  		text-align: center;
+  	}
+  	.container .btn10 {
+ 		 position: absolute;
+  		top: 20%;
+  		left: 150%;
+  		color: white;
+  		font-size: 30px;
+  		padding: 100px 410px;
+  		border: none;
+  		cursor: pointer;
+  		text-align: center;
+	}
+	.container .btn11 {
+ 		 position: absolute;
+  		top: 20%;
+  		left: 150%;
+  		color: white;
+  		font-size: 20px;
+  		padding: 145px 405px;
+  		border: none;
+  		cursor: pointer;
+  		text-align: center;
+	}
+
+	.test1{
+			background-image: url(happy1.jpg);
+      background-repeat: no-repeat;
+      height: 428px;
+      width:510px;
+		 
+		}
+	.maindata{
+
+		height: 70%;
+		width: 100%;
+		display: flex;
+		background-color: #003366	
+	}
+	.child1{
+		padding-top: 80px;
+ 		padding-right: 30px;
+  		padding-bottom: 50px;
+  		padding-left: 80px;
+  		color: white;
+  		height: 50%;
+		width: 50%;
+  		text-align: left;
+	}
+		.child2{
+		padding-top: 80px;
+		padding-right:30px;
+ 		padding-bottom: 30px;
+ 		padding-left: 30px;
+  		color: white;
+		text-align: left;
+		height: 50%;
+		width: 50%;
+	
+	}
+		.child3{
+
+		padding-top: 80px;
+ 		padding-right: 50px;
+  		padding-bottom: 50px;
+  		height: 50%;
+		width: 50%;
+  		color: white;
+		
+	}
+	.textchange{
+		letter-spacing: 2px;
+		line-height: 1.2
+	}
+

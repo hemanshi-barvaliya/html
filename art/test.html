@@ -1,0 +1,133 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>art</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<style>
+	
+		.owl_logo_img{
+			border-radius: 50%;
+			height: 70px !important;
+			width: 70px !important;
+			margin: auto;
+			border: 5px solid pink;
+			
+		}
+		.owl_logo_text{
+			text-align: center;
+		}
+		.owl_logo_title{
+			text-align: center;
+		}
+		.owl-item.active{
+			border: 1px solid red;
+		}
+		
+		.owl-item.active.center
+		{
+
+			opacity: 1;
+			border: 5px solid green;
+			transform: scale(1.7);
+			z-index: 1;
+			background: white;
+			border-radius: 10%;
+			background-color: yellow;
+	
+			
+
+		}
+		div.owl-carousel div.owl-stage-outer{
+			    position: relative;
+			      overflow: visible;
+    			-webkit-transform: translate3d(0, 0, 0);
+
+		}
+		.owl-carousel_silder5 .owl-dots {
+   				position: absolute;
+    			bottom: 40px;
+    			display: flex;
+   				 align-items: center;
+   				 justify-content: center;
+    			width: 100%;
+        }
+        .owl-carousel_silder5  .owl-dots .owl-dot{
+            background-color: gray;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          	height: 12px;
+          	width: 12px;
+          	margin: 7px;
+        }
+        .owl-carousel_silder5  .owl-dots .owl-dot.active{
+        	background-color:black ;
+        }
+
+	</style>
+
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="owl-carousel owl-carousel_silder5 owl-theme" id="item5">	
+		<div class="owl_crousal_logo">
+			<img class="owl_logo_img" src="cake/1.jpg" >
+			<P class="owl_logo_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.
+			<h2 class="owl_logo_title">Silder 1</h2>
+		</div>
+		<div class="owl_crousal_logo">
+			<img class="owl_logo_img" src="cake/2.jpg"  >
+			<P class="owl_logo_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.
+			<h2 class="owl_logo_title">Silder 2</h2>
+
+		</div>
+		<div class="owl_crousal_logo">
+			<img class="owl_logo_img" src="cake/3.jpg"  >
+			<P class="owl_logo_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.
+			<h2 class="owl_logo_title">Silder 3</h2>
+		</div>
+		<div class="owl_crousal_logo">
+			<img class="owl_logo_img" src="cake/4.jpg"  >
+			<P class="owl_logo_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.
+			<h2 class="owl_logo_title">Silder 4</h2>
+		</div>
+		<div class="owl_crousal_logo">
+			<img class="owl_logo_img" src="cake/5.jpg"  >
+			<P class="owl_logo_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.
+			<h2 class="owl_logo_title">Silder 5</h2>
+		</div>		
+	</div>
+
+
+
+
+
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+  		$('#item5').owlCarousel({	
+  			items : 3,
+  			dots : true,
+  			loop : true,
+  			center:true,
+  			
+
+  		});
+	});
+		
+	</script>
+</body>
+</html>
